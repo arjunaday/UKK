@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    background-color: rgb(2, 68, 251);
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    position: relative;
+    display: grid;
+}
+.value{
+    height: 80px;
+    width: 240px;
+    text-align: right;
+    padding:40px;
+    font-size: 40px;
+    grid-column: span 4;
+    background-color: rgb(221, 255, 0);
+}
+
+span{
+    height: 60px;
+    width: 60px;
+    background-color: rgb(224, 249, 0);
+    color: rgb(1, 57, 243);
+    border: 1px solid rgb(9, 9, 9);
+    place-items: center;
+   display: grid;
+}
+.form span.equal{
+    height: 120px;
+    grid-row: span 2;
+    background-color: rgb(229, 241, 2);
+}
+
+.form span.clear{
+    background-color: rgb(206, 231, 14);
+}
+.form span.active{
+    background-color: rgb(250, 250, 0);
+    color: rgb(255, 1, 217);
+}
